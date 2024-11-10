@@ -22,7 +22,6 @@ export class AddTodoComponent {
       desc: this.desc,
       isactive:true
     }
-
     this.todoAdd.emit(todo)
   }
 
